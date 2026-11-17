@@ -1,0 +1,9 @@
+CATATAN PREPROCESSING 
+random_state     : 42
+test_size        : 0.2 (stratified)
+buang duplikat   : tidak (125 duplikat dipertahankan)
+encoding         : one-hot Month & VisitorType; Weekend & Revenue -> 0/1
+scaler           : StandardScaler pada 14 kolom numerik (fit di train)
+ukuran train/test: (9864, 28) / (2466, 28)
+pembeli train/test: 15.47% / 15.49%
+target           : Revenue (1 = beli, 0 = tidak beli)
