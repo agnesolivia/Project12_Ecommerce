@@ -1,0 +1,11 @@
+{
+  "model": "Random Forest (100 trees)",
+  "accuracy": 0.8978,
+  "precision": 0.7305,
+  "recall": 0.5393,
+  "f1": 0.6205,
+  "TN": 2008,
+  "FP": 76,
+  "FN": 176,
+  "TP": 206
+}
