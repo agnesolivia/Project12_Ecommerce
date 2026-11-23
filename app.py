@@ -145,7 +145,7 @@ ref = load_reference_stats()
 
 # ==================== SIDEBAR ====================
 with st.sidebar:
-    st.title("🛒 Project 12 ML")
+    st.title("Project 12 ML")
     st.caption("Prediksi Perilaku Pembelian Pengunjung E-Commerce")
     st.divider()
 
@@ -171,17 +171,17 @@ with st.sidebar:
     )
 
 # ==================== HEADER ====================
-st.title("🛒 Dashboard Prediksi Niat Beli Pengunjung E-Commerce")
+st.title("Dashboard Prediksi Niat Beli Pengunjung E-Commerce")
 st.markdown(
     "Implementasi **Machine Learning Workflow (Tahap 6: Deployment & Tahap 7: Monitoring)** "
     "menggunakan dataset *UCI Online Shoppers Purchasing Intention*."
 )
 
 tab1, tab2, tab3, tab4 = st.tabs([
-    "🔮 Prediksi Pengunjung",
-    "📂 Prediksi Batch (CSV)",
-    "📊 Evaluasi & Perbandingan Model",
-    "📈 Monitoring Model",
+    "Prediksi Pengunjung",
+    "Prediksi Batch (CSV)",
+    "Evaluasi & Perbandingan Model",
+    "Monitoring Model",
 ])
 
 # ==================== TAB 1: LIVE INFERENCE ====================
@@ -235,7 +235,7 @@ with tab1:
                 region = st.number_input("Region (1-9)", 1, 9, int(vals["Region"]))
                 traffic_type = st.number_input("TrafficType (1-20)", 1, 20, int(vals["TrafficType"]))
 
-        submitted = st.form_submit_button("🔍 Prediksi Sekarang", type="primary", width="stretch")
+        submitted = st.form_submit_button("Prediksi Sekarang", type="primary", width="stretch")
 
     if submitted:
         raw_input = {
